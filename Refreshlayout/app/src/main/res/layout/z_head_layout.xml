@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<uk.co.imallan.jellyrefreshlayout.ZSpringFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/zly"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_gravity="center_horizontal"
+        android:alpha="0"
+        android:orientation="horizontal">
+
+        <com.victor.loading.rotate.RotateLoading
+            android:id="@+id/loading"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_vertical"
+            app:loading_color="@android:color/white"
+            app:loading_width="3dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/loading"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+    </LinearLayout>
+
+</uk.co.imallan.jellyrefreshlayout.ZSpringFrameLayout>
